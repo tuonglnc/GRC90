@@ -44,18 +44,18 @@ grc90/
 │   └── week9-cis-audit-report.md
 │
 ├── weekly/
-│   ├── week01-cia-nist.md             ← Ngày 1–7
-│   ├── week02-networking.md           ← Ngày 8–14
-│   ├── week03-linux-access.md         ← Ngày 15–21
-│   ├── week04-cloud-lab.md            ← Ngày 22–30
-│   ├── week05-owasp-vuln.md           ← Ngày 31–37
-│   ├── week06-killchain-ir.md         ← Ngày 38–44
-│   ├── week07-blueteam-audit.md       ← Ngày 45–51
-│   ├── week08-ai-security.md          ← Ngày 52–60
-│   ├── week09-scanning-compliance.md  ← Ngày 61–67
-│   ├── week10-ad-identity.md          ← Ngày 68–74
-│   ├── week11-ctf-report.md           ← Ngày 75–81
-│   └── week12-portfolio-hunt.md       ← Ngày 82–90
+│   ├── week01-cia-nist.md             ← Day 1–7
+│   ├── week02-networking.md           ← Day 8–14
+│   ├── week03-linux-access.md         ← Day 15–21
+│   ├── week04-cloud-lab.md            ← Day 22–30
+│   ├── week05-owasp-vuln.md           ← Day 31–37
+│   ├── week06-killchain-ir.md         ← Day 38–44
+│   ├── week07-blueteam-audit.md       ← Day 45–51
+│   ├── week08-ai-security.md          ← Day 52–60
+│   ├── week09-scanning-compliance.md  ← Day 61–67
+│   ├── week10-ad-identity.md          ← Day 68–74
+│   ├── week11-ctf-report.md           ← Day 75–81
+│   └── week12-portfolio-hunt.md       ← Day 82–90
 │
 └── notes/
     ├── cia-triad-analysis.md
