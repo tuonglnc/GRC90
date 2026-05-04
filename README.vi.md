@@ -16,6 +16,84 @@
 
 ---
 
+## 📁 Cấu trúc Repository
+
+```
+cybersec-grc-journey/
+│
+├── README.md                          ← File này
+│
+├── policies/
+│   ├── user-account-policy.md         ← Tuần 3 ⭐
+│   └── ai-governance-policy.md        ← Tuần 8 ⭐
+│
+├── checklists/
+│   └── cloud-hygiene-checklist.md     ← Tuần 4 ⭐
+│
+├── playbooks/
+│   └── incident-response-playbook.md  ← Tuần 6 ⭐
+│
+├── reports/
+│   ├── identity-risk-assessment.md    ← Tuần 10 ⭐
+│   └── pentest-report-[machine].md    ← Tuần 11 ⭐
+│
+├── labs/
+│   ├── week1-risk-register.xlsx
+│   ├── week2-wireshark-notes.md
+│   ├── week7-kql-queries.md
+│   └── week9-cis-audit-report.md
+│
+└── notes/
+    ├── cia-triad-analysis.md
+    ├── nist-csf-summary.md
+    └── mitre-attack-mapping.md
+```
+
+---
+
+## 🎯 Định vị bản thân — Technical GRC
+
+### Elevator Pitch
+
+> *"I'm a cybersecurity professional specializing in Technical GRC — bridging the gap between hands-on security (cloud security, vulnerability management, identity governance) and compliance frameworks like NIST CSF and ISO 27001. I also focus on AI governance, helping organizations build guardrails for responsible AI adoption."*
+
+### Điểm khác biệt
+
+| Kỹ năng | GRC Analyst thông thường | Technical GRC (bạn) |
+|---|---|---|
+| Framework | ✅ Biết NIST, ISO 27001 | ✅ Biết + áp dụng được vào hệ thống thực |
+| Cloud | ❌ Lý thuyết | ✅ Đã lab AWS, biết misconfiguration |
+| Pentest | ❌ Không có | ✅ Hiểu attack để viết control tốt hơn |
+| AI Governance | ❌ Rất ít người có | ✅ Có policy template thực tế |
+| Evidence | CV chỉ có chữ | ✅ GitHub portfolio có thể xem được |
+
+---
+
+## 📚 Tài nguyên tổng hợp
+
+### Frameworks & Standards
+
+- [NIST CSF 2.0](https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf)
+- [NIST AI Risk Management Framework](https://www.nist.gov/system/files/documents/2023/01/26/AI%20RMF%201.0.pdf)
+- [MITRE ATT&CK](https://attack.mitre.org/)
+- [OWASP Top 10](https://owasp.org/www-project-top-ten/)
+- [OWASP LLM Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
+- [CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks)
+- [EU AI Act](https://artificialintelligenceact.eu/the-act/)
+
+### Platforms thực hành
+
+- [TryHackMe](https://tryhackme.com/) — bắt đầu từ đây
+- [HackTheBox](https://www.hackthebox.com/) — sau khi có nền tảng
+- [PortSwigger Web Security Academy](https://portswigger.net/web-security) — web security
+- [Gandalf by Lakera](https://gandalf.lakera.ai/) — AI security
+
+### Tools
+
+- [Wireshark](https://www.wireshark.org/) · [Nmap](https://nmap.org/) · [Burp Suite](https://portswigger.net/burp) · [BloodHound](https://github.com/SpecterOps/BloodHound) · [Prowler](https://github.com/prowler-cloud/prowler)
+
+---
+
 ## 📊 Progress Tracker
 
 > Cập nhật thủ công — thay `[ ]` thành `[x]` khi hoàn thành
@@ -400,84 +478,6 @@ SIEM · KQL · Threat Modeling · CSPM
 ### 🏆 Mốc Giai đoạn 3
 
 > Portfolio đầy đủ trên GitHub. LinkedIn tối ưu. Sẵn sàng apply vị trí GRC/Security Analyst.
-
----
-
-## 📁 Cấu trúc Repository
-
-```
-cybersec-grc-journey/
-│
-├── README.md                          ← File này
-│
-├── policies/
-│   ├── user-account-policy.md         ← Tuần 3 ⭐
-│   └── ai-governance-policy.md        ← Tuần 8 ⭐
-│
-├── checklists/
-│   └── cloud-hygiene-checklist.md     ← Tuần 4 ⭐
-│
-├── playbooks/
-│   └── incident-response-playbook.md  ← Tuần 6 ⭐
-│
-├── reports/
-│   ├── identity-risk-assessment.md    ← Tuần 10 ⭐
-│   └── pentest-report-[machine].md    ← Tuần 11 ⭐
-│
-├── labs/
-│   ├── week1-risk-register.xlsx
-│   ├── week2-wireshark-notes.md
-│   ├── week7-kql-queries.md
-│   └── week9-cis-audit-report.md
-│
-└── notes/
-    ├── cia-triad-analysis.md
-    ├── nist-csf-summary.md
-    └── mitre-attack-mapping.md
-```
-
----
-
-## 🎯 Định vị bản thân — Technical GRC
-
-### Elevator Pitch
-
-> *"I'm a cybersecurity professional specializing in Technical GRC — bridging the gap between hands-on security (cloud security, vulnerability management, identity governance) and compliance frameworks like NIST CSF and ISO 27001. I also focus on AI governance, helping organizations build guardrails for responsible AI adoption."*
-
-### Điểm khác biệt
-
-| Kỹ năng | GRC Analyst thông thường | Technical GRC (bạn) |
-|---|---|---|
-| Framework | ✅ Biết NIST, ISO 27001 | ✅ Biết + áp dụng được vào hệ thống thực |
-| Cloud | ❌ Lý thuyết | ✅ Đã lab AWS, biết misconfiguration |
-| Pentest | ❌ Không có | ✅ Hiểu attack để viết control tốt hơn |
-| AI Governance | ❌ Rất ít người có | ✅ Có policy template thực tế |
-| Evidence | CV chỉ có chữ | ✅ GitHub portfolio có thể xem được |
-
----
-
-## 📚 Tài nguyên tổng hợp
-
-### Frameworks & Standards
-
-- [NIST CSF 2.0](https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf)
-- [NIST AI Risk Management Framework](https://www.nist.gov/system/files/documents/2023/01/26/AI%20RMF%201.0.pdf)
-- [MITRE ATT&CK](https://attack.mitre.org/)
-- [OWASP Top 10](https://owasp.org/www-project-top-ten/)
-- [OWASP LLM Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
-- [CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks)
-- [EU AI Act](https://artificialintelligenceact.eu/the-act/)
-
-### Platforms thực hành
-
-- [TryHackMe](https://tryhackme.com/) — bắt đầu từ đây
-- [HackTheBox](https://www.hackthebox.com/) — sau khi có nền tảng
-- [PortSwigger Web Security Academy](https://portswigger.net/web-security) — web security
-- [Gandalf by Lakera](https://gandalf.lakera.ai/) — AI security
-
-### Tools
-
-- [Wireshark](https://www.wireshark.org/) · [Nmap](https://nmap.org/) · [Burp Suite](https://portswigger.net/burp) · [BloodHound](https://github.com/SpecterOps/BloodHound) · [Prowler](https://github.com/prowler-cloud/prowler)
 
 ---
 
