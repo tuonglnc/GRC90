@@ -498,6 +498,6 @@ SIEM · KQL · Threat Modeling · CSPM
 *Lộ trình được xây dựng cho hành trình học cá nhân. Cập nhật và điều chỉnh khi cần thiết.*
 
 ---
-Hi vọng mọi kiến thức sẽ được bạn học tiếp nhận một cách đơn giản và vui vẻ. Rất mong nhận được sự thảo luận của bạn học khi có thắc mắc hoặc có vấn đề cần chỉnh sửa qua zalo^^ Cảm ơn vì đã ghé thăm, see ya~~~
+Hi vọng mọi kiến thức sẽ được bạn học tiếp nhận một cách đơn giản và vui vẻ. Rất mong nhận được sự thảo luận của bạn học khi có thắc mắc hoặc có vấn đề cần chỉnh sửa qua brandya337@gmail.com ^^ Cảm ơn vì đã ghé thăm, see ya~~~
 
 🚀 **You are what you do!**
