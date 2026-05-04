@@ -19,7 +19,7 @@
 ## 📁 Cấu trúc Repository
 
 ```
-cybersec-grc-journey/
+grc90/
 │
 ├── README.md                          ← File này
 │
@@ -42,6 +42,20 @@ cybersec-grc-journey/
 │   ├── week2-wireshark-notes.md
 │   ├── week7-kql-queries.md
 │   └── week9-cis-audit-report.md
+│
+├── weekly/
+│   ├── week01-cia-nist.md             ← Ngày 1–7
+│   ├── week02-networking.md           ← Ngày 8–14
+│   ├── week03-linux-access.md         ← Ngày 15–21
+│   ├── week04-cloud-lab.md            ← Ngày 22–30
+│   ├── week05-owasp-vuln.md           ← Ngày 31–37
+│   ├── week06-killchain-ir.md         ← Ngày 38–44
+│   ├── week07-blueteam-audit.md       ← Ngày 45–51
+│   ├── week08-ai-security.md          ← Ngày 52–60
+│   ├── week09-scanning-compliance.md  ← Ngày 61–67
+│   ├── week10-ad-identity.md          ← Ngày 68–74
+│   ├── week11-ctf-report.md           ← Ngày 75–81
+│   └── week12-portfolio-hunt.md       ← Ngày 82–90
 │
 └── notes/
     ├── cia-triad-analysis.md
