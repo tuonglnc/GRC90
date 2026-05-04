@@ -43,6 +43,97 @@
 
 ---
 
+## 📁 Repository Structure
+
+```
+grc90/
+│
+├── README.md                          ← This file
+│
+├── policies/
+│   ├── user-account-policy.md         ← Week 3 ⭐
+│   └── ai-governance-policy.md        ← Week 8 ⭐
+│
+├── checklists/
+│   └── cloud-hygiene-checklist.md     ← Week 4 ⭐
+│
+├── playbooks/
+│   └── incident-response-playbook.md  ← Week 6 ⭐
+│
+├── reports/
+│   ├── identity-risk-assessment.md    ← Week 10 ⭐
+│   └── pentest-report-[machine].md    ← Week 11 ⭐
+│
+├── labs/
+│   ├── week1-risk-register.xlsx
+│   ├── week2-wireshark-notes.md
+│   ├── week7-kql-queries.md
+│   └── week9-cis-audit-report.md
+│
+├── weekly/
+│   ├── week01-cia-nist.md             ← Ngày 1–7
+│   ├── week02-networking.md           ← Ngày 8–14
+│   ├── week03-linux-access.md         ← Ngày 15–21
+│   ├── week04-cloud-lab.md            ← Ngày 22–30
+│   ├── week05-owasp-vuln.md           ← Ngày 31–37
+│   ├── week06-killchain-ir.md         ← Ngày 38–44
+│   ├── week07-blueteam-audit.md       ← Ngày 45–51
+│   ├── week08-ai-security.md          ← Ngày 52–60
+│   ├── week09-scanning-compliance.md  ← Ngày 61–67
+│   ├── week10-ad-identity.md          ← Ngày 68–74
+│   ├── week11-ctf-report.md           ← Ngày 75–81
+│   └── week12-portfolio-hunt.md       ← Ngày 82–90
+│
+└── notes/
+    ├── cia-triad-analysis.md
+    ├── nist-csf-summary.md
+    └── mitre-attack-mapping.md
+```
+
+---
+
+## 🎯 Personal Positioning — Technical GRC
+
+### Elevator Pitch
+
+> *"I'm a cybersecurity professional specializing in Technical GRC — bridging the gap between hands-on security (cloud security, vulnerability management, identity governance) and compliance frameworks like NIST CSF and ISO 27001. I also focus on AI governance, helping organizations build guardrails for responsible AI adoption."*
+
+### What Sets You Apart
+
+| Skill | Typical GRC Analyst | Technical GRC (you) |
+|---|---|---|
+| Frameworks | ✅ Knows NIST, ISO 27001 | ✅ Knows + can apply them to real systems |
+| Cloud | ❌ Theoretical | ✅ Hands-on AWS labs, detects misconfigurations |
+| Pentesting | ❌ None | ✅ Understands attacks to write better controls |
+| AI Governance | ❌ Very few have this | ✅ Real policy templates, hands-on experience |
+| Evidence | CV with words only | ✅ GitHub portfolio anyone can review |
+
+---
+
+## 📚 Master Resource List
+
+### Frameworks & Standards
+
+- [NIST CSF 2.0](https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf)
+- [NIST AI Risk Management Framework](https://www.nist.gov/system/files/documents/2023/01/26/AI%20RMF%201.0.pdf)
+- [MITRE ATT&CK](https://attack.mitre.org/)
+- [OWASP Top 10](https://owasp.org/www-project-top-ten/)
+- [OWASP LLM Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
+- [CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks)
+- [EU AI Act](https://artificialintelligenceact.eu/the-act/)
+
+### Practice Platforms
+
+- [TryHackMe](https://tryhackme.com/) — start here
+- [HackTheBox](https://www.hackthebox.com/) — once you have a foundation
+- [PortSwigger Web Security Academy](https://portswigger.net/web-security) — web security
+- [Gandalf by Lakera](https://gandalf.lakera.ai/) — AI security
+
+### Tools
+
+- [Wireshark](https://www.wireshark.org/) · [Nmap](https://nmap.org/) · [Burp Suite](https://portswigger.net/burp) · [BloodHound](https://github.com/SpecterOps/BloodHound) · [Prowler](https://github.com/prowler-cloud/prowler)
+
+---
 ## 🔵 PHASE 1: System Foundations & Identity (Day 1–30)
 
 ### Week 1 — CIA Triad & Risk Mindset (GRC Mindset)
@@ -400,98 +491,6 @@ SIEM · KQL · Threat Modeling · CSPM
 ### 🏆 Phase 3 Milestone
 
 > Full portfolio on GitHub. LinkedIn optimized. Ready to apply for GRC/Security Analyst positions.
-
----
-
-## 📁 Repository Structure
-
-```
-grc90/
-│
-├── README.md                          ← This file
-│
-├── policies/
-│   ├── user-account-policy.md         ← Week 3 ⭐
-│   └── ai-governance-policy.md        ← Week 8 ⭐
-│
-├── checklists/
-│   └── cloud-hygiene-checklist.md     ← Week 4 ⭐
-│
-├── playbooks/
-│   └── incident-response-playbook.md  ← Week 6 ⭐
-│
-├── reports/
-│   ├── identity-risk-assessment.md    ← Week 10 ⭐
-│   └── pentest-report-[machine].md    ← Week 11 ⭐
-│
-├── labs/
-│   ├── week1-risk-register.xlsx
-│   ├── week2-wireshark-notes.md
-│   ├── week7-kql-queries.md
-│   └── week9-cis-audit-report.md
-│
-├── weekly/
-│   ├── week01-cia-nist.md             ← Ngày 1–7
-│   ├── week02-networking.md           ← Ngày 8–14
-│   ├── week03-linux-access.md         ← Ngày 15–21
-│   ├── week04-cloud-lab.md            ← Ngày 22–30
-│   ├── week05-owasp-vuln.md           ← Ngày 31–37
-│   ├── week06-killchain-ir.md         ← Ngày 38–44
-│   ├── week07-blueteam-audit.md       ← Ngày 45–51
-│   ├── week08-ai-security.md          ← Ngày 52–60
-│   ├── week09-scanning-compliance.md  ← Ngày 61–67
-│   ├── week10-ad-identity.md          ← Ngày 68–74
-│   ├── week11-ctf-report.md           ← Ngày 75–81
-│   └── week12-portfolio-hunt.md       ← Ngày 82–90
-│
-└── notes/
-    ├── cia-triad-analysis.md
-    ├── nist-csf-summary.md
-    └── mitre-attack-mapping.md
-```
-
----
-
-## 🎯 Personal Positioning — Technical GRC
-
-### Elevator Pitch
-
-> *"I'm a cybersecurity professional specializing in Technical GRC — bridging the gap between hands-on security (cloud security, vulnerability management, identity governance) and compliance frameworks like NIST CSF and ISO 27001. I also focus on AI governance, helping organizations build guardrails for responsible AI adoption."*
-
-### What Sets You Apart
-
-| Skill | Typical GRC Analyst | Technical GRC (you) |
-|---|---|---|
-| Frameworks | ✅ Knows NIST, ISO 27001 | ✅ Knows + can apply them to real systems |
-| Cloud | ❌ Theoretical | ✅ Hands-on AWS labs, detects misconfigurations |
-| Pentesting | ❌ None | ✅ Understands attacks to write better controls |
-| AI Governance | ❌ Very few have this | ✅ Real policy templates, hands-on experience |
-| Evidence | CV with words only | ✅ GitHub portfolio anyone can review |
-
----
-
-## 📚 Master Resource List
-
-### Frameworks & Standards
-
-- [NIST CSF 2.0](https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf)
-- [NIST AI Risk Management Framework](https://www.nist.gov/system/files/documents/2023/01/26/AI%20RMF%201.0.pdf)
-- [MITRE ATT&CK](https://attack.mitre.org/)
-- [OWASP Top 10](https://owasp.org/www-project-top-ten/)
-- [OWASP LLM Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
-- [CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks)
-- [EU AI Act](https://artificialintelligenceact.eu/the-act/)
-
-### Practice Platforms
-
-- [TryHackMe](https://tryhackme.com/) — start here
-- [HackTheBox](https://www.hackthebox.com/) — once you have a foundation
-- [PortSwigger Web Security Academy](https://portswigger.net/web-security) — web security
-- [Gandalf by Lakera](https://gandalf.lakera.ai/) — AI security
-
-### Tools
-
-- [Wireshark](https://www.wireshark.org/) · [Nmap](https://nmap.org/) · [Burp Suite](https://portswigger.net/burp) · [BloodHound](https://github.com/SpecterOps/BloodHound) · [Prowler](https://github.com/prowler-cloud/prowler)
 
 ---
 
