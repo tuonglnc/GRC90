@@ -498,6 +498,8 @@ SIEM · KQL · Threat Modeling · CSPM
 *This roadmap was built for personal learning. Update and adjust as needed along the way.*
 
 ---
-I hope you find the knowledge here easy to grasp and enjoyable to learn. Please feel free to reach out via brandya337@gmail.com if you have any questions or find anything that needs fixing. Thanks for stopping by, see ya~~~
+I hope you find the knowledge here easy to grasp and enjoyable to learn. 
+Please feel free to reach out via brandya337@gmail.com if you have any questions or find anything that needs fixing. 
+Thanks for stopping by, see ya~~~
 
 🚀 **You are what you do!**
