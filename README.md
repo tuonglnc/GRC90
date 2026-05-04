@@ -16,33 +16,6 @@
 
 ---
 
-## 📊 Progress Tracker
-
-> Update manually — change `[ ]` to `[x]` when completed
-
-### Phase 1
-
-- [ ] Week 1 — CIA Triad & Risk Mindset
-- [ ] Week 2 — Networking & Network Segmentation
-- [ ] Week 3 — Linux & Access Control
-- [ ] Week 4 — Cloud Lab & Cloud Security Posture
-
-### Phase 2
-
-- [ ] Week 5 — OWASP Top 10 & Vulnerability Management
-- [ ] Week 6 — Kill Chain & Incident Response Plan
-- [ ] Week 7 — Blue Team & Continuous Auditing
-- [ ] Week 8 — AI Security & AI Governance
-
-### Phase 3
-
-- [ ] Week 9 — Scanning Tools & Compliance Automation
-- [ ] Week 10 — Active Directory & Identity Risk
-- [ ] Week 11 — CTFs & Pentest Report Writing
-- [ ] Week 12 — Portfolio & Positioning as "Technical GRC"
-
----
-
 ## 📁 Repository Structure
 
 ```
@@ -134,6 +107,34 @@ grc90/
 - [Wireshark](https://www.wireshark.org/) · [Nmap](https://nmap.org/) · [Burp Suite](https://portswigger.net/burp) · [BloodHound](https://github.com/SpecterOps/BloodHound) · [Prowler](https://github.com/prowler-cloud/prowler)
 
 ---
+
+## 📊 Progress Tracker
+
+> Update manually — change `[ ]` to `[x]` when completed
+
+### Phase 1
+
+- [ ] Week 1 — CIA Triad & Risk Mindset
+- [ ] Week 2 — Networking & Network Segmentation
+- [ ] Week 3 — Linux & Access Control
+- [ ] Week 4 — Cloud Lab & Cloud Security Posture
+
+### Phase 2
+
+- [ ] Week 5 — OWASP Top 10 & Vulnerability Management
+- [ ] Week 6 — Kill Chain & Incident Response Plan
+- [ ] Week 7 — Blue Team & Continuous Auditing
+- [ ] Week 8 — AI Security & AI Governance
+
+### Phase 3
+
+- [ ] Week 9 — Scanning Tools & Compliance Automation
+- [ ] Week 10 — Active Directory & Identity Risk
+- [ ] Week 11 — CTFs & Pentest Report Writing
+- [ ] Week 12 — Portfolio & Positioning as "Technical GRC"
+
+---
+
 ## 🔵 PHASE 1: System Foundations & Identity (Day 1–30)
 
 ### Week 1 — CIA Triad & Risk Mindset (GRC Mindset)
