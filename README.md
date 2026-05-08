@@ -499,7 +499,7 @@ SIEM · KQL · Threat Modeling · CSPM
 
 ---
 I hope you find the knowledge here easy to grasp and enjoyable to learn. 
-Please feel free to reach out via brandya337@gmail.com if you have any questions or find anything that needs fixing. 
+Please feel free to reach out via tuonglnc.cyber@gmail.com if you have any questions or find anything that needs fixing. 
 Thanks for stopping by, see ya~~~
 
 🚀 **You are what you do!**
