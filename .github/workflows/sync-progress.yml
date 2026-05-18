@@ -1,0 +1,35 @@
+name: Sync Weekly Progress to Roadmap
+
+on:
+  push:
+    paths:
+      - 'weekly/week*.md'   # triggers only when a weekly file is updated
+  workflow_dispatch:         # allows manual trigger from GitHub Actions tab
+
+jobs:
+  sync-progress:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write        # needed to commit back to repo
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run progress sync script
+        run: python .github/scripts/sync_progress.py
+
+      - name: Commit updated files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Progress Bot"
+          git add ROADMAP.md README.md
+          git diff --staged --quiet || git commit -m "🤖 Auto-sync: update progress from weekly checklists"
+          git push
