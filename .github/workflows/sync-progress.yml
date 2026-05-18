@@ -6,6 +6,9 @@ on:
       - 'weekly/week*.md'   # triggers only when a weekly file is updated
   workflow_dispatch:         # allows manual trigger from GitHub Actions tab
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   sync-progress:
     runs-on: ubuntu-latest
