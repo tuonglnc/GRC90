@@ -25,6 +25,7 @@ jobs:
 
       - name: Run progress sync script
         run: python .github/scripts/sync_progress.py
+        working-directory: ${{ github.workspace }}
 
       - name: Commit updated files
         run: |

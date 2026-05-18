@@ -75,6 +75,11 @@ def progress_bar(done: int, total: int, width: int = 20) -> str:
 # ── Main ─────────────────────────────────────────────────────────────────────
 
 def main():
+    # Always run from repo root regardless of where script is invoked from
+    # Script lives at .github/scripts/sync_progress.py → go up 3 levels
+    repo_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    os.chdir(repo_root)
+    print(f"📂 Working directory: {os.getcwd()}")
     print("🔍 Scanning weekly files...")
 
     # Collect status for each week
