@@ -1,5 +1,12 @@
 # Equifax (2017)
 
+> **Keywords**
+> - CVE-2017-5638
+> - RCE
+> - Apache Struts
+> - OGNL Injection
+> - Patch Management Failure
+
 - **Victim:** Equifax — đại khái là nhỏ này theo dõi mọi thông tin về tài chính, vay bla bla của phần lớn người dân ở Mỹ  
   *(bị lộ thông tin cỡ 147 triệu người à 😉)*
 
