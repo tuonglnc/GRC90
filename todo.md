@@ -1,2 +1,3 @@
-[ ] notes/solarwinds.md
-[ ] notes/wannacry.md
+
+- [ ] notes/solarwinds.md
+- [ ] notes/wannacry.md
