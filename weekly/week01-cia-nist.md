@@ -141,7 +141,7 @@
 - [ ] `labs/week01-risk-register.xlsx` — Risk Register with 5 risks scored
 - [ ] `notes/cia-triad-analysis.md` — CIA analysis of Equifax + SolarWinds
 - [ ] `notes/nist-csf-summary.md` — Personal summary of NIST CSF 2.0 Functions
-- [ ] GitHub repo initialized with first commit
+- [X] GitHub repo initialized with first commit
 
 ---
 
