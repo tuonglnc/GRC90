@@ -295,7 +295,7 @@ Thảm họa truyền thông 😭
 
 ---
 
-# 🧩 Mapping với MITRE ATT&CK
+# 🧩 Mapping với MITRE ATT&CK (để thoi chưa học tới =)))
 
 | Giai đoạn | MITRE ATT&CK Technique |
 |---|---|
