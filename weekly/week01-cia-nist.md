@@ -38,9 +38,8 @@
 
 #### CIA Triad - Case Study:
 1. Confidentiality: [Equifax (2017)](../notes/equifax.md)
-
-3. Integrity: SolarWinds Orion (2020)
-4. Availability: WannaCry (2017)
+2. Integrity: [SolarWinds Orion (2020)](../notes/solarwinds.md)
+3. Availability: [WannaCry (2017)](../notes/wannacry.md)
 
 ---
 
