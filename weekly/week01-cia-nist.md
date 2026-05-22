@@ -31,13 +31,13 @@
 
 **📝 Notes:**
 <!-- Write your notes here -->
-# CIA Triad - Definition:
+#### CIA Triad - Definition:
 1. Confidentiality (Tính bảo mật): "Ai có quyền mới được xem" - "Tui hong có quyền mà tui vẫn xem được thì seo 👻"
 2. Integrity (Tính toàn vẹn): "Nhỏ Data còn **zin** hong bị mất, hong bị thêm, hong bị sửa..." - "Tui sẽ hủy hoại em Data bằng mọi giá 🤡"
 3. Availability (Tính khả dụng): "Tui cần bên anh 24/24" - "Tui sẽ ko cho cô gặp anh ta 😈"
 
-# CIA Triad - Case Study:
-# 1. Confidentiality: [Equifax (2017)](../notes/equifax.md)
+#### CIA Triad - Case Study:
+1. Confidentiality: [Equifax (2017)](../notes/equifax.md)
 
 3. Integrity: SolarWinds Orion (2020)
 4. Availability: WannaCry (2017)
