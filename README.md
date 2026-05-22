@@ -3,7 +3,7 @@
 > A self-paced learning roadmap targeting a **Technical GRC Analyst** role.  
 > Built in public. Updated weekly.
 
-🇬🇧 English · [🇻🇳 Tiếng Việt](./README_VI.md)
+🇬🇧 English · [🇻🇳 Tiếng Việt](./README.vi.md)
 
 ---
 
