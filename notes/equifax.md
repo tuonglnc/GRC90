@@ -232,7 +232,7 @@ Hacker đã:
 
 ---
 
-## 🎭 Tóm tắt bằng đối thoại
+## 🎭 Kiểu kiểu
 
 ```text
 Apache: "Patch đi bro 😭"
