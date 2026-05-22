@@ -1,4 +1,24 @@
-# Equifax (2017)
+# 📚 Mục lục
+
+- [🔎 Tổng quan vụ Equifax (2017)](#-tổng-quan-vụ-equifax-2017)
+
+- [🧨 Diễn biến (1)](#-diễn-biến-1)
+
+- [🕸️ Diễn biến (2) — Pivot vào nội bộ](#️-diễn-biến-2--pivot-vào-nội-bộ)
+
+- [📉 Hậu quả cuối cùng](#-hậu-quả-cuối-cùng)
+
+- [🧠 Case Study kinh điển cho](#-đây-là-case-study-kinh-điển-cho)
+
+- [🎬 Attack Chain — Full Drama](#-attack-chain--full-drama)
+
+- [🛑 Phân tích dưới lăng kính bảo mật cốt lõi](#-bổ-sung-phân-tích-dưới-lăng-kính-bảo-mật-cốt-lõi)
+
+- [📈 Kết luận về Risk](#-kết-luận-về-risk-rủi-ro)
+
+- [🧠 Bài học cốt lõi](#-bài-học-cốt-lõi)
+
+# 🔎 Tổng quan vụ Equifax (2017)
 
 > **Keywords**
 > - CVE-2017-5638
@@ -310,3 +330,291 @@ Thảm họa truyền thông 😭
 | Nén dữ liệu | T1560 — Archive Collected Data |
 | Exfiltrate qua HTTPS | T1041 — Exfiltration Over C2 Channel |
 | Ẩn trong traffic HTTPS | T1071.001 — Web Protocols |
+
+# 🛑 Bổ sung: Phân tích Dưới Lăng Kính Bảo Mật Cốt Lõi
+
+---
+
+# 1. 🧠 Trụ cột nào trong CIA Triad đã bị xâm phạm?
+
+Trong vụ Equifax 2017, cả ba trụ cột của CIA Triad đều bị ảnh hưởng ở các mức độ khác nhau.
+
+Tuy nhiên, trụ cột bị tàn phá nặng nề nhất — và biến đây thành một thảm họa lịch sử — chính là:
+
+> 🔥 **Confidentiality (Tính bảo mật)**
+
+---
+
+## 🔒 Confidentiality (Tính bảo mật)
+### ❌ [BỊ XÂM PHẠM NGHIÊM TRỌNG]
+
+Thông tin định danh cá nhân nhạy cảm *(PII)* và lịch sử tài chính của hơn **147 triệu người** vốn là bí mật cốt lõi đã bị:
+
+- rò rỉ hoàn toàn
+- xuất hiện trên thị trường đen
+- bị truy cập trái phép bởi attacker
+
+Các dữ liệu bị lộ bao gồm:
+
+- Social Security Number (SSN)
+- ngày sinh
+- địa chỉ
+- số bằng lái
+- credit history
+- thông tin vay nợ
+
+---
+
+## 🧩 Integrity (Tính toàn vẹn)
+### ⚠️ [BỊ ĐE DỌA]
+
+Mục tiêu chính của attacker là:
+
+> trộm dữ liệu
+
+Tuy nhiên, sau khi có được:
+
+- RCE
+- quyền điều khiển server
+- khả năng truy cập database
+
+thì attacker hoàn toàn có khả năng:
+
+- sửa dữ liệu
+- chèn dữ liệu giả
+- xóa bản ghi tài chính
+- thay đổi lịch sử tín dụng
+
+nếu muốn 😭
+
+Điều này khiến:
+
+> tính toàn vẹn dữ liệu bị đe dọa nghiêm trọng.
+
+---
+
+## 🟢 Availability (Tính sẵn sàng)
+### ⚠️ [BỊ ẢNH HƯỞNG GIÁN TIẾP]
+
+Hệ thống không bị sập ngay lúc đó.
+
+Tuy nhiên:
+
+- Equifax phải shutdown nhiều hệ thống để điều tra
+- vá lỗi khẩn cấp
+- khôi phục hạ tầng
+- xử lý khủng hoảng truyền thông
+
+=> làm nhiều dịch vụ bị gián đoạn 😭
+
+Điều này ảnh hưởng trực tiếp tới:
+
+> tính sẵn sàng của dịch vụ.
+
+---
+
+---
+
+# 2. 🧩 Mapping Tương Quan: Threat × Vulnerability × Asset
+
+Áp dụng đúng mô hình nền tảng bảo mật:
+
+```text
+Threat × Vulnerability × Asset = Risk
+```
+
+case study này được bóc tách như sau 👇
+
+---
+
+# 💎 Asset (Tài sản cần bảo vệ)
+
+## 🗃️ Tài sản dữ liệu (Core Data)
+
+Cơ sở dữ liệu chứa:
+
+- Social Security Number (SSN)
+- ngày sinh
+- địa chỉ
+- số bằng lái
+- hồ sơ điểm tín dụng
+
+của hơn **147 triệu công dân Mỹ** 😭
+
+---
+
+## 🖥️ Tài sản công nghệ (Infrastructure)
+
+Bao gồm:
+
+- hệ thống public-facing web server
+- ứng dụng Apache Struts
+- database backend
+- hạ tầng mạng nội bộ
+
+---
+
+## 💰 Tài sản vô hình (Business Asset)
+
+Không chỉ dữ liệu 😭
+
+Equifax còn mất:
+
+- uy tín doanh nghiệp
+- niềm tin công chúng
+- giá trị cổ phiếu
+- hình ảnh thương hiệu
+- niềm tin từ đối tác tài chính
+
+---
+
+# 🕳️ Vulnerability (Lỗ hổng tồn tại)
+
+---
+
+## 💥 Lỗ hổng kỹ thuật (Technical Bugs)
+
+### 🔥 CVE-2017-5638
+
+Lỗ hổng:
+
+- OGNL Injection
+- dẫn tới Remote Code Execution (RCE)
+
+trong:
+
+> Jakarta Multipart Parser của Apache Struts
+
+---
+
+### 🔑 Plaintext Credentials
+
+Thông tin đăng nhập database được lưu:
+
+- dưới dạng plaintext
+- trong hệ thống nội bộ
+
+=> attacker dễ dàng lấy được credential 😭
+
+---
+
+### 🧨 SSL/TLS Certificate hết hạn
+
+Certificate của hệ thống IDS/IPS:
+
+- hết hạn hơn 10 tháng
+- khiến hệ thống monitoring bị "mù"
+
+=> không inspect được HTTPS outbound traffic.
+
+---
+
+# 🧾 Lỗ hổng quy trình (Process / GRC Flaws)
+
+## 🐌 Patch Management Failure
+
+Apache đã tung patch từ:
+
+> tháng 3/2017
+
+Nhưng Equifax:
+
+- không update
+- không kiểm tra asset đầy đủ
+- bỏ quên hệ thống vulnerable
+
+đến tận tháng 5–7/2017 😭
+
+---
+
+## 🕸️ Network Segmentation Failure
+
+Sau khi compromise web server:
+
+- attacker có thể pivot sâu vào internal network
+- truy cập thẳng database quan trọng
+
+=> chứng tỏ việc phân tách mạng rất lỏng lẻo.
+
+---
+
+# 🧨 Threat (Mối đe dọa)
+
+---
+
+## 👤 Threat Actor (Tác nhân)
+
+Nhóm attacker có trình độ cao:
+
+- khả năng Internet-wide scanning
+- kỹ năng pivot chuyên nghiệp
+- kỹ năng exfiltration mạnh
+- được Mỹ cáo buộc liên quan đến quân đội nước ngoài
+
+---
+
+## ⚔️ Threat Action (Hành động đe dọa)
+
+Attacker tiến hành:
+
+- scan Internet
+- tìm Apache Struts chưa vá
+- exploit RCE
+- leo thang đặc quyền
+- truy cập database
+- dump dữ liệu
+- exfiltrate dữ liệu qua HTTPS
+
+một cách âm thầm 😭
+
+---
+
+# 📈 Kết luận về Risk (Rủi ro)
+
+Thảm họa này xảy ra khi:
+
+- **Impact cực lớn**
+  - dữ liệu tài chính quốc gia
+  - PII cực kỳ nhạy cảm
+
+gặp:
+
+- **Likelihood cực cao**
+  - RCE public
+  - exploit có sẵn
+  - exposed ra Internet
+  - monitoring bị vô hiệu hóa
+
+---
+
+## 🎯 Công thức Risk
+
+:contentReference[oaicite:0]{index=0}
+
+---
+
+# 🧠 Bài học cốt lõi
+
+Equifax không thể kiểm soát được:
+
+- Threat
+- vì hacker luôn scan Internet 😭
+
+Nhưng họ hoàn toàn có thể:
+
+- vá lỗi đúng lúc
+- kiểm kê asset đúng cách
+- rotate certificate
+- segment network
+- monitor outbound traffic
+
+Nói cách khác:
+
+> Vulnerability mới chính là cánh cửa bị bỏ quên.
+
+Và việc không vá lỗ hổng kịp thời...
+
+chính là:
+
+> 🔑 chiếc chìa khóa mở toang lâu đài cho kẻ trộm bước vào 😭
+
