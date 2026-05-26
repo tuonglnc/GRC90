@@ -36,9 +36,9 @@
 ### Day 2 — SolarWinds case study
 *~2–3 hours*
 
-- [ ] Read a summary of the SolarWinds 2020 attack — the most significant supply chain breach in history
-- [ ] Fill in the analysis table: which CIA pillar(s) were violated? Who was the Threat Actor? Where was the Vulnerability?
-- [ ] Compare SolarWinds vs Equifax: same attack type or different? What lessons apply to any organization?
+- [x] Read a summary of the SolarWinds 2020 attack — the most significant supply chain breach in history
+- [x] Fill in the analysis table: which CIA pillar(s) were violated? Who was the Threat Actor? Where was the Vulnerability?
+- [x] Compare SolarWinds vs Equifax: same attack type or different? What lessons apply to any organization?
 
 **📝 Notes:**
 <!-- Write your notes here -->
