@@ -23,7 +23,7 @@ Phase 3 [🟢] ░░░░ 0/4
 
 | Week | Topic | Status | Daily Log |
 |---|---|---|---|
-| Week 1 | CIA Triad & Risk Mindset | <!-- W01_STATUS -->🔄 In progress (8/27)<!-- /W01_STATUS --> | [→ week01](./weekly/week01-cia-nist.md) |
+| Week 1 | CIA Triad & Risk Mindset | <!-- W01_STATUS -->🔄 In progress (9/27)<!-- /W01_STATUS --> | [→ week01](./weekly/week01-cia-nist.md) |
 | Week 2 | Networking & Network Segmentation | <!-- W02_STATUS -->⬜ Not started<!-- /W02_STATUS --> | [→ week02](./weekly/week02-networking.md) |
 | Week 3 | Linux & Access Control | <!-- W03_STATUS -->⬜ Not started<!-- /W03_STATUS --> | [→ week03](./weekly/week03-linux-access.md) |
 | Week 4 | Cloud Lab & Cloud Security Posture | <!-- W04_STATUS -->⬜ Not started<!-- /W04_STATUS --> | [→ week04](./weekly/week04-cloud-lab.md) |
