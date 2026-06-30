@@ -53,7 +53,7 @@
 *~3 hours*
 
 - [x] Open NIST CSF 2.0 PDF — read Preface and Section 1 (Overview): understand the purpose, who uses it, and why
-- [ ] Read Section 2 (CSF Core): understand all 6 Functions — **GOVERN, IDENTIFY, PROTECT, DETECT, RESPOND, RECOVER** — note that GOVERN is new in v2.0
+- [x] Read Section 2 (CSF Core): understand all 6 Functions — **GOVERN, IDENTIFY, PROTECT, DETECT, RESPOND, RECOVER** — note that GOVERN is new in v2.0
 - [ ] Read Section 3 (Profiles & Tiers): understand Current Profile vs Target Profile, and the 4 Tiers (Partial → Adaptive)
 - [ ] Summarize all 6 Functions in your own words (e.g. "GOVERN = who is accountable for cybersecurity in the org")
 
@@ -71,7 +71,6 @@
 
 - [ ] Take the Equifax breach and map it to NIST CSF: which Functions did they FAIL at? *(hint: IDENTIFY — didn't know about the vulnerability; DETECT — too slow to detect)*
 - [ ] Write ~150 words: "If Equifax had properly applied NIST CSF, what should they have done differently at each Function?"
-- [ ] Start TryHackMe Pre-Security path — complete the first module (What is Networking)
 
 **📝 Notes:**
 <!-- Write your notes here -->
