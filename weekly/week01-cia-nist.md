@@ -52,12 +52,12 @@
 ### Day 3 — NIST CSF 2.0 deep read
 *~3 hours*
 
-- [ ] Open NIST CSF 2.0 PDF — read Preface and Section 1 (Overview): understand the purpose, who uses it, and why
+- [x] Open NIST CSF 2.0 PDF — read Preface and Section 1 (Overview): understand the purpose, who uses it, and why
 - [ ] Read Section 2 (CSF Core): understand all 6 Functions — **GOVERN, IDENTIFY, PROTECT, DETECT, RESPOND, RECOVER** — note that GOVERN is new in v2.0
 - [ ] Read Section 3 (Profiles & Tiers): understand Current Profile vs Target Profile, and the 4 Tiers (Partial → Adaptive)
 - [ ] Summarize all 6 Functions in your own words (e.g. "GOVERN = who is accountable for cybersecurity in the org")
 
-**📝 Notes:**
+[**📝 Notes:**](../daily/day3-260630.md) 
 <!-- Write your notes here -->
 
 **🔗 Resources:**
